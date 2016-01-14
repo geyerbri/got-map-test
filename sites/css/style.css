@@ -16,6 +16,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  width: 100%
 }
 .footer {
   position: fixed;
@@ -66,10 +67,10 @@ code {
 
 #map {
     position: absolute; 
-		top: 0;
-		left: 0; 
-		height: 100%; 
-		width: 100%;
+	top: 0;
+	left: 0; 
+	height: 100%; 
+	width: 100%;
 }
 
 .leaflet-control-zoom.leaflet-bar.leaflet-control{
@@ -90,7 +91,7 @@ code {
 }
 
 #detail a {
-    color: #fff;
+    color: #b37300;
     text-decoration: none;
 }
 
